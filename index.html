@@ -1,0 +1,23 @@
+
+<html>
+<head>
+<title>The Dice Game</title>
+</head>
+<body>
+<script type="text/javascript">
+var val = parseInt(prompt("Enter a value between 1-6"));
+var num = Math.floor(Math.random() * 6 + 1);
+if(val<1 || val>6)
+{
+	alert("Please Enter the value between 1-6");
+}
+else
+{
+if(val==num) 
+alert("You Won, The Number was "+num);
+else
+alert("You Lose, The Number was "+num);
+}
+</script>
+</body>
+</html>
